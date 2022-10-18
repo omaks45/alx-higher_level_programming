@@ -30,7 +30,7 @@ When an integer and a string are inputed
 ::
 
 When a string and a list are inputed
-   >>> say_my_name("Eden", ['stone'])
+   >>> say_my_name("Eden", ["stone", "Kelvin"])
    Traceback (most recent call last):
    TypeError: last name must be a string
 
@@ -44,7 +44,7 @@ When None is inputed
 ::
 
 When a string and dictionary is inputed
-   >>> say_my_name("Kelvin", {"name": "4"})
+   >>> say_my_name("Kelvin", {"name": 4, "age": 54})
    Traceback (most recent call last):
    TypeError: last name must be a string
 
